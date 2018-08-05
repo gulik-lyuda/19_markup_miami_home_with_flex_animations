@@ -1,0 +1,44 @@
+#about {
+    width: 100%;
+    padding-top: 18vh;
+    padding-bottom: 22vh;
+    
+}
+// end of #about
+
+.about__left {
+    width: 30vw;
+    
+    font-size: 3.8vw; // 48px;
+    line-height: 4.76vw; // 60px;
+    font-weight: 100;
+    text-transform: uppercase;
+
+    strong {
+        font-weight: 500;
+    }
+
+    span {
+        color: $blue;
+    }
+}
+// end of .about__left
+
+.about__right {
+    width: 44vw;
+    padding-right: 1.5vw;
+
+    ol {
+        width: 75%;
+        margin: 6.5vh 0;
+        padding-left: 0;
+
+        position: relative;
+        left: -5px;
+
+        li {
+            margin-bottom: 1.8vh;
+        }
+    }
+}
+// end of .about__right
