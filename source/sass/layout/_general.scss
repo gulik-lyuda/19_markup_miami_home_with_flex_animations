@@ -6,8 +6,83 @@ body {
     line-height: 1.9vmax; // 24px*100%/1260px
     color: $black;
 }
+// end of body
 
 .wrapper {
     width: 75vw;
     margin: 0 auto;
 }
+// end of .wrapper
+
+.section {
+    padding-bottom: 14.3vh;
+
+    &__title {
+        width: fit-content;
+        margin: 0 auto; // 6.15vh;
+        z-index: 5;
+
+        position: relative;
+        top: -4.75vh;
+
+        h2 {
+            margin: 0 0 2.35vh;
+
+            font-size: 3.8vw; // 48px;
+            line-height: 3.75vw; 
+            font-weight: 100;
+            text-transform: uppercase;
+            color: $black;
+        }
+
+        &_decoration {
+            svg {
+                width: 3.61vw;
+                margin: 0 1.3vw;
+    
+                fill: $blue;
+            }
+
+            .line {
+                width: 100%;
+                height: 2px;
+
+                background-color: $blue;
+            }
+        }
+        // end of .section__title_decoration
+    }
+    // end of .section__title
+
+    &:nth-child(odd) {
+        background-color: $light-grey;
+    }
+
+    .button {
+        display: block;
+        width: 100%;
+        height: 6.8vh; // 52px;
+    
+        background-color: $blue;
+    
+        font-size: 1.83vh; //14px;
+        font-weight: 500;
+        line-height: 6.8vh; // 52px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $white;
+    
+        &_inline {
+            display: inline-block;
+            width: auto;
+            padding: 0 4.76vw; //60px;
+        }
+        // end of .button_inline
+
+        &:hover {
+            background-color: $dark_blue;
+        }
+    }
+    // end of .button
+}
+// end of .section
