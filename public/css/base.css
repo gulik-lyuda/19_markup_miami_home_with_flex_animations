@@ -211,3 +211,44 @@ body {
   width: 30.16vw; }
   .consultation__right .consultation_form__field {
     margin-bottom: 1.31vh; }
+
+#testimonials {
+  padding-bottom: 17vh; }
+  #testimonials .section__title {
+    margin-bottom: 1.85vh; }
+
+.testimonial {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 2%;
+  text-align: center;
+  color: #323232; }
+  .testimonial__photo {
+    position: relative;
+    margin-bottom: 1.96vh; }
+    .testimonial__photo img {
+      width: 11.62vw;
+      height: 11.62vw;
+      border-radius: 50%; }
+    .testimonial__photo:before {
+      position: absolute;
+      content: " ";
+      left: calc(50% - 7.94vw);
+      top: 50%;
+      width: 40px;
+      height: 40px;
+      margin-top: -1.96vh;
+      background-image: url("../images/icons/quotes.svg");
+      background-position: 0 0;
+      background-size: contain; }
+  .testimonial__name {
+    margin-bottom: 1.31vh;
+    font-weight: bold; }
+  .testimonial__position {
+    margin-bottom: 5.23vh;
+    font-style: italic;
+    color: #696973; }
+  .testimonial__description {
+    line-height: 1.37;
+    text-align: center; }
