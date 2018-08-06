@@ -1,0 +1,29 @@
+#consultation {
+    padding-bottom: 19vh;
+    
+    .section__title {
+        margin-bottom: 15.26vh;
+    }
+}
+
+.consultation__left {
+    width: 36.51vw;
+
+    h3 {
+        margin: 0 0 6.53vh;
+
+        font-size: 2.55vw;
+        line-height: 2.84vw;
+        font-weight: normal;
+    }
+}
+
+.consultation__right {
+    width: 30.16vw;
+
+    .consultation_form {
+        &__field {
+            margin-bottom: 1.31vh;
+        }
+    }
+}
