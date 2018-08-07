@@ -70,8 +70,8 @@ body {
     .section .input::placeholder, .section .textarea::placeholder {
       font-size: 1.83vh; }
   .section .textarea {
-    height: 100px;
-    padding: 20px;
+    height: 21.83vh;
+    padding: 1.59vw;
     resize: none; }
   .section .button {
     display: block;
@@ -252,3 +252,18 @@ body {
   .testimonial__description {
     line-height: 1.37;
     text-align: center; }
+
+#contact {
+  padding-bottom: 13.07vh; }
+  #contact .section__title {
+    margin-bottom: 14.38vh; }
+
+.contact__left {
+  width: 23.81vw;
+  font-size: 1.89vw;
+  line-height: 2.54vw; }
+  .contact__left p {
+    margin: 0 0 5.54vh; }
+
+.contact__right {
+  width: 30.16vw; }
