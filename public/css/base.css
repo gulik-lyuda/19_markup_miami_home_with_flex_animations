@@ -267,3 +267,29 @@ body {
 
 .contact__right {
   width: 30.16vw; }
+
+footer {
+  width: 100%;
+  height: 70.59vh;
+  position: relative;
+  background-image: url("../images/backgrounds/footer_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.footer__logo {
+  width: 9.13vw;
+  height: 100%; }
+  .footer__logo svg {
+    width: 100%;
+    height: 100%; }
+
+.footer__copyright {
+  position: absolute;
+  bottom: 8.63vh;
+  left: 0;
+  right: 0;
+  font-size: 1.27vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff; }
