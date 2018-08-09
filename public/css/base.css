@@ -206,6 +206,9 @@ body {
       -ms-flex: 1;
           flex: 1;
   height: 34vh; }
+  #gallery .apart__photo img {
+    width: 100%;
+    height: 100%; }
   #gallery .apart__photo:first-child {
     margin-right: 20px; }
 
@@ -402,3 +405,115 @@ footer {
       padding: 0 4.76vw; }
     .modal_box__content .button:hover {
       background-color: #0185ba; }
+
+@media (max-width: 320px), (max-device-width: 480px), (max-device-width: 1024px) {
+  body,
+  .button {
+    font-size: 2.27vmax;
+    line-height: 2.9vmax; }
+  .wrapper {
+    width: 85vw; }
+  .section {
+    padding-bottom: 8.3vh; }
+    .section__title {
+      top: -4.4vw; }
+      .section__title h2 {
+        margin-bottom: 1.35vh;
+        font-size: 8.8vw;
+        line-height: 8.75vw;
+        font-weight: 400; }
+      .section__title_decoration svg {
+        width: 12vw; }
+    .section .textarea {
+      padding-top: 2vh;
+      font-size: 3.27vw;
+      line-height: 3.9vw; }
+    .section .button_inline {
+      padding: 0 14.76vw; }
+  #header {
+    padding: 5vh 0; }
+  .header__top {
+    height: 90vh;
+    overflow: visible;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column; }
+    .header__top .header__logo {
+      width: 35vh;
+      height: 90%; }
+  .header__bottom {
+    display: none; }
+  #about {
+    padding-top: 8vh;
+    padding-bottom: 12vh; }
+    #about .wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+              flex-flow: column; }
+  .about__left {
+    width: 60vw;
+    padding-bottom: 3vh;
+    font-size: 10.8vw;
+    line-height: 12.76vw; }
+  .about__right {
+    width: 100%; }
+    .about__right ol {
+      width: 90%;
+      padding-left: 24px; }
+  #gallery .section__title {
+    margin-bottom: 4.5vh; }
+  #gallery .apart h3 {
+    margin: 1vh 0 2.57vh;
+    font-size: 3.5vw; }
+  #gallery .apart__photo {
+    height: auto; }
+    #gallery .apart__photo:first-child {
+      margin-right: 10px; }
+  #consultation {
+    padding-bottom: 10vh; }
+    #consultation .section__title {
+      margin-bottom: 5.26vh; }
+    #consultation .wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+              flex-flow: column;
+      text-align: center; }
+      #consultation .wrapper div {
+        width: 100%; }
+  .consultation__left h3 {
+    margin: 0 0 3.53vh;
+    font-size: 6.55vw;
+    line-height: 6.84vw;
+    font-weight: normal; }
+  #testimonials {
+    padding-bottom: 8vh; }
+    #testimonials .testimonial__photo img {
+      width: 50vw;
+      height: 50vw; }
+    #testimonials .testimonial__photo:before {
+      left: calc(50% - 32.94vw); }
+    #testimonials .slick-prev, #testimonials .slick-next {
+      display: none; }
+  #contact {
+    padding-bottom: 7vh; }
+    #contact .section__title {
+      margin-bottom: 5.38vh; }
+    #contact .wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+              flex-flow: column; }
+      #contact .wrapper div {
+        width: 100%; }
+    #contact .contact__left {
+      font-size: 3.89vw;
+      line-height: 4.54vw;
+      text-align: center; }
+  .footer__logo {
+    width: 20vh;
+    height: 90%; }
+  .footer__copyright {
+    font-size: 3.27vw; } }

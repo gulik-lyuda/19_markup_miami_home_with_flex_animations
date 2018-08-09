@@ -1,0 +1,214 @@
+$small_mobile: only screen and ( max-width: 320px );
+$mobile: only screen and ( min-device-width: 320px ) and ( max-device-width: 480px );
+$tablet: only screen and ( min-device-width: 768px ) and ( max-device-width: 1024px );
+
+@media #{$small_mobile}, #{$mobile}, #{$tablet} 
+{
+// general settings
+    body,
+    .button {
+        font-size: 2.27vmax; 
+        line-height: 2.9vmax;
+    }
+
+    .wrapper {
+        width: 85vw;
+    }
+
+    .section {
+        padding-bottom: 8.3vh;
+
+        &__title {
+            top: -4.4vw;
+
+            h2 {
+                margin-bottom: 1.35vh;
+
+                font-size: 8.8vw; 
+                line-height: 8.75vw; 
+                font-weight: 400;
+            }
+
+            &_decoration {
+                svg{
+                    width: 12vw;
+                }
+            }
+        }
+        // end of .section__title
+
+        .textarea {
+            padding-top: 2vh;
+    
+            font-size: 3.27vw; 
+            line-height: 3.9vw;
+        }
+
+        .button_inline {
+            padding: 0 14.76vw;
+        }
+    }
+
+// for Header section
+    #header {
+        padding: 5vh 0;
+    }
+
+    .header__top {
+        height: 90vh;
+        overflow: visible;
+
+        flex-flow: column;
+
+        .header__logo {
+            width: 35vh;
+            height: 90%;
+        }
+    }
+
+    .header__bottom {
+        display: none;
+    }
+// end for Header section
+
+// for About section
+    #about {
+        padding-top: 8vh;
+        padding-bottom: 12vh;
+
+        .wrapper {
+            flex-flow: column;
+        }
+    }
+
+    .about__left {
+        width: 60vw;
+        padding-bottom: 3vh;
+
+        font-size: 10.8vw; 
+        line-height: 12.76vw;
+    }
+
+    .about__right {
+        width: 100%;
+
+        ol {
+            width: 90%;
+            padding-left: 24px;
+        }
+    }
+// end for About section
+
+//  for Gallery section
+    #gallery {
+
+        .section__title {
+            margin-bottom: 4.5vh;
+        }
+
+        .apart {
+
+            h3 {
+                margin: 1vh 0 2.57vh;  
+
+                font-size: 3.5vw;
+            }
+
+            &__photo {
+                height: auto; //11vh;
+
+                &:first-child {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+// end for Gallery section
+
+// for Consultation section
+#consultation {
+    padding-bottom: 10vh;
+
+    .section__title {
+        margin-bottom: 5.26vh;
+    }
+
+    .wrapper {
+        flex-flow: column;
+
+        text-align: center;
+
+        div {
+            width: 100%;
+        } 
+    }
+}
+
+.consultation__left {
+
+    h3 {
+        margin: 0 0 3.53vh;
+
+        font-size: 6.55vw;
+        line-height: 6.84vw;
+        font-weight: normal;
+    }
+}
+// end for Consultation section
+
+// for Testimonials section
+#testimonials {
+    padding-bottom: 8vh;
+
+    .testimonial__photo {
+        
+        img {
+            width: 50vw;
+            height: 50vw;
+        }
+
+        &:before {
+            left: calc(50% - 32.94vw);
+        }
+    }
+
+    .slick-prev, .slick-next {
+        display: none;
+    }
+}
+// end for Testimonials section
+
+// for Contact section
+#contact {
+    padding-bottom: 7vh;
+
+    .section__title {
+        margin-bottom: 5.38vh;
+    }
+
+    .wrapper {
+        flex-flow: column;
+
+        div {
+            width: 100%;
+        }
+    }
+
+    .contact__left {
+        font-size: 3.89vw;
+        line-height: 4.54vw;
+        text-align: center;
+    }
+}
+// end for Contact section
+
+// for Footer section
+    .footer__logo {
+        width: 20vh;
+        height: 90%;
+    }
+
+    .footer__copyright {
+        font-size: 3.27vw;
+    }
+}
