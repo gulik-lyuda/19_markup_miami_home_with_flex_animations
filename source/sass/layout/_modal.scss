@@ -1,0 +1,93 @@
+#main_page__hide {
+    width: 100%;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+
+    background-color: rgba($black, .8);
+}
+
+#modal_box {
+    width: 50vw;
+    position: fixed;
+    top: 20vh;
+    left: calc(50% - 25vw);
+    z-index: 51;
+}
+
+#modal_box__close {
+    width: 2vw;
+    height: 2vw;
+
+    position: absolute;
+    top: -3vw;
+    right: -3vw;
+
+    cursor: pointer;
+
+    fill: $white;
+}
+
+.modal_box__content {
+    width: 100%;
+    padding: 5%;
+
+    background-color: $white;
+
+    .input, .textarea {
+        width: 100%;
+        height: 6.8vh; // 52px;
+        margin-bottom: 1.3vh;
+    
+        background-color: $light-grey;
+        border: none;
+    
+        font-size: 1.83vh;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        text-transform: uppercase;
+        color: $grey;
+    
+        &::placeholder {    
+            font-size: 1.83vh;        
+        }
+    }
+    
+    .textarea {
+        height: 21.83vh;
+        padding: 1.59vw;
+    
+        resize: none;
+    }
+
+    .button {
+        display: block;
+        width: 100%;
+        height: 6.8vh; // 52px;
+    
+        background-color: $blue;
+    
+        font-size: 1.83vh; //14px;
+        font-weight: 500;
+        line-height: 6.8vh; // 52px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $white;
+    
+        &_inline {
+            display: inline-block;
+            width: auto;
+            padding: 0 4.76vw; //60px;
+        }
+        // end of .button_inline
+
+        &:hover {
+            background-color: $dark_blue;
+        }
+    }
+    // end of .button
+}

@@ -9,7 +9,7 @@
 
 .testimonial {
     flex: 1;
-    padding: 0 2%;
+    padding: 0; 
 
     text-align: center;
     color: $black;
@@ -21,6 +21,8 @@
         img {
             width: 11.62vw;
             height: 11.62vw;
+            margin: 0 auto;
+
             border-radius: 50%;
         }
 
