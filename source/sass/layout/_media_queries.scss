@@ -1,6 +1,6 @@
 $small_mobile: only screen and ( max-width: 320px );
-$mobile: only screen and ( min-device-width: 320px ) and ( max-device-width: 480px );
-$tablet: only screen and ( min-device-width: 768px ) and ( max-device-width: 1024px );
+$mobile: all and ( min-width: 320px ) and ( max-width: 480px );
+$tablet: all and ( min-width: 768px ) and ( max-width: 1024px );
 
 @media #{$small_mobile}, #{$mobile}, #{$tablet} 
 {
